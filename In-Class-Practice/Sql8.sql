@@ -1,5 +1,5 @@
-#CREATE DATABASE Sql8;
-#USE Sql8;
+CREATE DATABASE Sql8;
+USE Sql8;
 
 SELECT prices.product_id, ROUND(SUM(units*price)/SUM(units), 2) AS avg_price from prices
 LEFT JOIN UnitsSold ON Prices.product_id = UnitsSold.product_id
