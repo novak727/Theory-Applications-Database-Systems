@@ -1,5 +1,5 @@
-#CREATE DATABASE Sql13;
-#USE Sql13;
+CREATE DATABASE Sql13;
+USE Sql13;
 
 SELECT * FROM products
 WHERE description LIKE '% SN____-____ %'
