@@ -1,5 +1,5 @@
-# CREATE DATABASE Sql5;
-# USE Sql5;
+CREATE DATABASE Sql5;
+USE Sql5;
 
 SELECT * FROM cinema;
 
